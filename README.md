@@ -1,14 +1,13 @@
 # Waypoints
-Short description and motivation.
-
-## Usage
-How to use my plugin.
+Gives you a visual map of your Rails' requests.
 
 ## Installation
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'waypoints'
+group :development do
+  gem 'waypoints'
+end
 ```
 
 And then execute:
@@ -21,8 +20,11 @@ Or install it yourself as:
 $ gem install waypoints
 ```
 
-## Contributing
-Contribution directions go here.
+Waypoints requires GraphViz to be installed. OSX users can install it via Homebrew:
+
+```bash
+$ brew install graphviz
+```
 
 ## License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
