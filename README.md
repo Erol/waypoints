@@ -1,6 +1,8 @@
 # Waypoints
 Gives you a visual map of your Rails' requests.
 
+![Sample](/sample.png?raw=true)
+
 ## Installation
 Add this line to your application's Gemfile:
 
