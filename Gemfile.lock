@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    waypoints (0.1.1)
+    waypoints (0.1.2)
       rails (~> 5.1.0)
       ruby-graphviz (~> 1.2.2)
 
